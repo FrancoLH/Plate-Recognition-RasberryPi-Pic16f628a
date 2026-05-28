@@ -27,5 +27,17 @@ void main(void){
             __delay_ms(300);
             sentido = 0;
         }
+
+        if(RB2==1 && inicio == 1){
+            RB5 == 1;
+            __delay_ms(300);
+            sentido = 1;
+        }
+
+        if(RB3==1 && inicio == 1 && sentido == 1){
+            RB5==0;
+            __delay_ms(300);
+            sentido = 0;
+        }
     }
 }

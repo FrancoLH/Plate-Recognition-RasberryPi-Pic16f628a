@@ -9,3 +9,5 @@ The first stage focuses on implementing YOLO on a Raspberry Pi for automatic lic
 
 The second stage focuses on implementing the PIC16F628A microcontroller to control the access barrier system. This includes managing the sensors and the barrier motor to ensure safe and proper vehicle access to the garage.
 
+
+
